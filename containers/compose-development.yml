@@ -1,7 +1,7 @@
-datastore:
-    build: datastore
-    container_name: datastore
-    tty: true
+#datastore:
+#    build: datastore
+#    container_name: datastore
+#    tty: true
 
 nginx:
     build: nginx
