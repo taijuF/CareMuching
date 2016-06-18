@@ -117,8 +117,4 @@ if __name__ == '__main__':
         can_turn_page = go_next_page(page)
         print(can_turn_page)
 
-    time.sleep(10000)
-
-
-
 
