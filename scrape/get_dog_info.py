@@ -40,13 +40,6 @@ def go_next_page(current_page):
         return 'SUCCESS'
     return 'ERROR'
 
-def access_deitals_dog_pages():
-    dogs_data = []
-    for i in range(27):
-        browser.find_element_by_xpath('//*[@id="follow_scrolling_container"]/div[1]/ul/li[' + str(i + 1) + ']/div').click()
-        dogs_data.append(get_details_dog_info())
-        browser.back()
-
 def find_element_text(xpath):
     try:
         result = browser.find_element_by_xpath(xpath).text
@@ -102,17 +95,24 @@ if __name__ == '__main__':
 
     result = {} # 最終結果
     # ページ毎の処理
-    page = 1
+    page = 0
     can_turn_page = go_next_page(page)
     dogs_data = []
+    end_flag  = False
     while can_turn_page == 'SUCCESS':
         for i in range(27):
+            # 里親決定の時は無理やり止まる
+            if('里親決定' == browser.find_element_by_xpath('//*[@id="follow_scrolling_container"]/div[1]/ul/li[' + str(i + 1) + ']/div/div[3]/div/img').get_attribute('alt')):
+                end_flag = True
+                break
+            # クリックしてデータを取得
             browser.find_element_by_xpath('//*[@id="follow_scrolling_container"]/div[1]/ul/li[' + str(i + 1) + ']/div').click()
             dogs_data.append(get_details_dog_info())
             with open('dogs_data.json', 'w+', encoding='utf-8') as fp:
                 json.dump(dogs_data, fp, indent=2, ensure_ascii=False)
             browser.back()
-        access_deitals_dog_pages()
+        if(end_flag):
+            break
         page += 1
         can_turn_page = go_next_page(page)
         print(can_turn_page)
