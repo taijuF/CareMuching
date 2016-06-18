@@ -1,0 +1,41 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  image: MyString
+  story: MyString
+  location: MyString
+  sex: MyString
+  health: MyString
+  title: MyString
+  delivery_method: MyString
+  castration: MyString
+  can_single: MyString
+  breed: MyString
+  other: MyString
+  age: MyString
+  limit: MyString
+  personality: MyString
+  facility: MyString
+  can_senior: MyString
+  vaccine: MyString
+  size: MyString
+
+two:
+  image: MyString
+  story: MyString
+  location: MyString
+  sex: MyString
+  health: MyString
+  title: MyString
+  delivery_method: MyString
+  castration: MyString
+  can_single: MyString
+  breed: MyString
+  other: MyString
+  age: MyString
+  limit: MyString
+  personality: MyString
+  facility: MyString
+  can_senior: MyString
+  vaccine: MyString
+  size: MyString
