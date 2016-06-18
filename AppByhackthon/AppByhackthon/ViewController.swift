@@ -71,14 +71,24 @@ class ViewController: UIViewController ,MDCSwipeToChooseDelegate {
             self.view.addSubview(noButton2)
             self.view.addSubview(view)
         }
-*/
-
-       
+        */
+        
+        /*****左方向へのナビゲーシ*****/
+        image = UIImage(named: "help-boy.png");
+        var leftBtn = UIBarButtonItem(image:image, style: .Bordered, target:self, action:"RegistDog")
+        leftBtn.tintColor = UIColor(red: 255/255, green: 105/255, blue: 180/255, alpha: 100)
+        self.navigationItem.leftBarButtonItem = leftBtn
     }
+    
     func DogList() {
         let listTable = DogListTableView()
-
         self.navigationController?.pushViewController(listTable, animated: true)
+    }
+    
+    /** ナビゲーションバーの人をおした時の動作 **/
+    func RegistDog() {
+        let RegisterDogs = RegisterDogsView();
+        self.navigationController?.pushViewController(RegisterDogs, animated: true)
     }
     
     
