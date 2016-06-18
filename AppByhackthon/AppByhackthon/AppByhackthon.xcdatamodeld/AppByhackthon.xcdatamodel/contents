@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Automatic">
+    <entity name="DogList" representedClassName=".DogList" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="breed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deliver" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="facility" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="health" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="limit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="other" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="personal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="story" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vaccine" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DogList" positionX="-54" positionY="-9" width="128" height="225"/>
+    </elements>
+</model>

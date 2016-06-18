@@ -1,0 +1,18 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'AppByhackthon' do
+  pod "MDCSwipeToChoose"
+  pod "SwiftyJSON"
+  pod "Alamofire"
+  pod 'SDWebImage'
+end
+
+target 'AppByhackthonTests' do
+
+end
+
+target 'AppByhackthonUITests' do
+
+end
+

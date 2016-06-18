@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55DBDA071D14F498006EFF03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBDA061D14F498006EFF03 /* AppDelegate.swift */; };
+		55DBDA091D14F498006EFF03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBDA081D14F498006EFF03 /* ViewController.swift */; };
+		55DBDA0C1D14F498006EFF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DBDA0A1D14F498006EFF03 /* Main.storyboard */; };
+		55DBDA0F1D14F498006EFF03 /* AppByhackthon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55DBDA0D1D14F498006EFF03 /* AppByhackthon.xcdatamodeld */; };
+		55DBDA111D14F498006EFF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DBDA101D14F498006EFF03 /* Assets.xcassets */; };
+		55DBDA141D14F498006EFF03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DBDA121D14F498006EFF03 /* LaunchScreen.storyboard */; };
+		55DBDA1F1D14F498006EFF03 /* AppByhackthonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBDA1E1D14F498006EFF03 /* AppByhackthonTests.swift */; };
+		55DBDA2A1D14F498006EFF03 /* AppByhackthonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBDA291D14F498006EFF03 /* AppByhackthonUITests.swift */; };
+		55DBDA381D14F588006EFF03 /* MDCSwipeToChoose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DBDA371D14F588006EFF03 /* MDCSwipeToChoose.framework */; };
+		55DBDA3A1D14F886006EFF03 /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DBDA391D14F886006EFF03 /* noimage.png */; };
+		55DBDA511D154812006EFF03 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBDA4F1D154812006EFF03 /* DetailController.swift */; };
+		55DBDA521D154812006EFF03 /* DetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55DBDA501D154812006EFF03 /* DetailController.xib */; };
+		55DBDA541D156FC4006EFF03 /* SwipeChoose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBDA531D156FC4006EFF03 /* SwipeChoose.swift */; };
+		55DBDA561D1574A2006EFF03 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBDA551D1574A2006EFF03 /* Dog.swift */; };
+		55DBDA581D15AE45006EFF03 /* DogListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBDA571D15AE45006EFF03 /* DogListTableView.swift */; };
+		55DBDA5B1D15BF4D006EFF03 /* DogList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBDA591D15BF4D006EFF03 /* DogList+CoreDataProperties.swift */; };
+		55DBDA5C1D15BF4D006EFF03 /* DogList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBDA5A1D15BF4D006EFF03 /* DogList.swift */; };
+		55DBDA5E1D15C198006EFF03 /* JSONViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBDA5D1D15C198006EFF03 /* JSONViewController.swift */; };
+		55DBDA611D15CE71006EFF03 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DBDA5F1D15CE71006EFF03 /* Alamofire.framework */; };
+		55DBDA621D15CE71006EFF03 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DBDA601D15CE71006EFF03 /* SwiftyJSON.framework */; };
+		55DD1EF41D15D70A0042D5FA /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DD1EF31D15D70A0042D5FA /* SDWebImage.framework */; };
+		76446056E004CD5FC619C3C7 /* Pods_AppByhackthon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46898BD5EA2F425FDC8BCFC8 /* Pods_AppByhackthon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55DBDA1B1D14F498006EFF03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55DBD9FB1D14F498006EFF03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55DBDA021D14F498006EFF03;
+			remoteInfo = AppByhackthon;
+		};
+		55DBDA261D14F498006EFF03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55DBD9FB1D14F498006EFF03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55DBDA021D14F498006EFF03;
+			remoteInfo = AppByhackthon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		362F11D20074884DB93171B4 /* Pods-AppByhackthon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppByhackthon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppByhackthon/Pods-AppByhackthon.debug.xcconfig"; sourceTree = "<group>"; };
+		3919013F9A20F8DA54057295 /* Pods-AppByhackthon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppByhackthon.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppByhackthon/Pods-AppByhackthon.release.xcconfig"; sourceTree = "<group>"; };
+		46898BD5EA2F425FDC8BCFC8 /* Pods_AppByhackthon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppByhackthon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DBDA031D14F498006EFF03 /* AppByhackthon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppByhackthon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DBDA061D14F498006EFF03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55DBDA081D14F498006EFF03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55DBDA0B1D14F498006EFF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55DBDA0E1D14F498006EFF03 /* AppByhackthon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppByhackthon.xcdatamodel; sourceTree = "<group>"; };
+		55DBDA101D14F498006EFF03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55DBDA131D14F498006EFF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55DBDA151D14F498006EFF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DBDA1A1D14F498006EFF03 /* AppByhackthonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppByhackthonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DBDA1E1D14F498006EFF03 /* AppByhackthonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppByhackthonTests.swift; sourceTree = "<group>"; };
+		55DBDA201D14F498006EFF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DBDA251D14F498006EFF03 /* AppByhackthonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppByhackthonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DBDA291D14F498006EFF03 /* AppByhackthonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppByhackthonUITests.swift; sourceTree = "<group>"; };
+		55DBDA2B1D14F498006EFF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DBDA371D14F588006EFF03 /* MDCSwipeToChoose.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MDCSwipeToChoose.framework; path = "Pods/../build/Debug-iphoneos/MDCSwipeToChoose.framework"; sourceTree = "<group>"; };
+		55DBDA391D14F886006EFF03 /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noimage.png; path = ../../noimage.png; sourceTree = "<group>"; };
+		55DBDA4F1D154812006EFF03 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		55DBDA501D154812006EFF03 /* DetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailController.xib; sourceTree = "<group>"; };
+		55DBDA531D156FC4006EFF03 /* SwipeChoose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeChoose.swift; sourceTree = "<group>"; };
+		55DBDA551D1574A2006EFF03 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		55DBDA571D15AE45006EFF03 /* DogListTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogListTableView.swift; sourceTree = "<group>"; };
+		55DBDA591D15BF4D006EFF03 /* DogList+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DogList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		55DBDA5A1D15BF4D006EFF03 /* DogList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogList.swift; sourceTree = "<group>"; };
+		55DBDA5D1D15C198006EFF03 /* JSONViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONViewController.swift; sourceTree = "<group>"; };
+		55DBDA5F1D15CE71006EFF03 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		55DBDA601D15CE71006EFF03 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		55DD1EF31D15D70A0042D5FA /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/SDWebImage.framework"; sourceTree = "<group>"; };
+		55DD1EF51D15D8000042D5FA /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55DBDA001D14F498006EFF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DD1EF41D15D70A0042D5FA /* SDWebImage.framework in Frameworks */,
+				55DBDA611D15CE71006EFF03 /* Alamofire.framework in Frameworks */,
+				55DBDA621D15CE71006EFF03 /* SwiftyJSON.framework in Frameworks */,
+				55DBDA381D14F588006EFF03 /* MDCSwipeToChoose.framework in Frameworks */,
+				76446056E004CD5FC619C3C7 /* Pods_AppByhackthon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DBDA171D14F498006EFF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DBDA221D14F498006EFF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55DBD9FA1D14F498006EFF03 = {
+			isa = PBXGroup;
+			children = (
+				55DBDA051D14F498006EFF03 /* AppByhackthon */,
+				55DBDA1D1D14F498006EFF03 /* AppByhackthonTests */,
+				55DBDA281D14F498006EFF03 /* AppByhackthonUITests */,
+				55DBDA041D14F498006EFF03 /* Products */,
+				8126E9D5809525AC12F76232 /* Pods */,
+				7D56450751823F0B59E22665 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55DBDA041D14F498006EFF03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55DBDA031D14F498006EFF03 /* AppByhackthon.app */,
+				55DBDA1A1D14F498006EFF03 /* AppByhackthonTests.xctest */,
+				55DBDA251D14F498006EFF03 /* AppByhackthonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55DBDA051D14F498006EFF03 /* AppByhackthon */ = {
+			isa = PBXGroup;
+			children = (
+				55DBDA061D14F498006EFF03 /* AppDelegate.swift */,
+				55DBDA081D14F498006EFF03 /* ViewController.swift */,
+				55DBDA4F1D154812006EFF03 /* DetailController.swift */,
+				55DBDA501D154812006EFF03 /* DetailController.xib */,
+				55DBDA531D156FC4006EFF03 /* SwipeChoose.swift */,
+				55DBDA551D1574A2006EFF03 /* Dog.swift */,
+				55DBDA571D15AE45006EFF03 /* DogListTableView.swift */,
+				55DBDA591D15BF4D006EFF03 /* DogList+CoreDataProperties.swift */,
+				55DBDA5A1D15BF4D006EFF03 /* DogList.swift */,
+				55DBDA5D1D15C198006EFF03 /* JSONViewController.swift */,
+				55DBDA0A1D14F498006EFF03 /* Main.storyboard */,
+				55DBDA101D14F498006EFF03 /* Assets.xcassets */,
+				55DBDA121D14F498006EFF03 /* LaunchScreen.storyboard */,
+				55DBDA391D14F886006EFF03 /* noimage.png */,
+				55DBDA151D14F498006EFF03 /* Info.plist */,
+				55DBDA0D1D14F498006EFF03 /* AppByhackthon.xcdatamodeld */,
+				55DD1EF51D15D8000042D5FA /* Header.h */,
+			);
+			path = AppByhackthon;
+			sourceTree = "<group>";
+		};
+		55DBDA1D1D14F498006EFF03 /* AppByhackthonTests */ = {
+			isa = PBXGroup;
+			children = (
+				55DBDA1E1D14F498006EFF03 /* AppByhackthonTests.swift */,
+				55DBDA201D14F498006EFF03 /* Info.plist */,
+			);
+			path = AppByhackthonTests;
+			sourceTree = "<group>";
+		};
+		55DBDA281D14F498006EFF03 /* AppByhackthonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55DBDA291D14F498006EFF03 /* AppByhackthonUITests.swift */,
+				55DBDA2B1D14F498006EFF03 /* Info.plist */,
+			);
+			path = AppByhackthonUITests;
+			sourceTree = "<group>";
+		};
+		7D56450751823F0B59E22665 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55DD1EF31D15D70A0042D5FA /* SDWebImage.framework */,
+				55DBDA5F1D15CE71006EFF03 /* Alamofire.framework */,
+				55DBDA601D15CE71006EFF03 /* SwiftyJSON.framework */,
+				55DBDA371D14F588006EFF03 /* MDCSwipeToChoose.framework */,
+				46898BD5EA2F425FDC8BCFC8 /* Pods_AppByhackthon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8126E9D5809525AC12F76232 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				362F11D20074884DB93171B4 /* Pods-AppByhackthon.debug.xcconfig */,
+				3919013F9A20F8DA54057295 /* Pods-AppByhackthon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55DBDA021D14F498006EFF03 /* AppByhackthon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DBDA2E1D14F498006EFF03 /* Build configuration list for PBXNativeTarget "AppByhackthon" */;
+			buildPhases = (
+				1B10603F7639737525A1F09F /* Check Pods Manifest.lock */,
+				55DBD9FF1D14F498006EFF03 /* Sources */,
+				55DBDA001D14F498006EFF03 /* Frameworks */,
+				55DBDA011D14F498006EFF03 /* Resources */,
+				3E0542D075573BFEB23DC229 /* Embed Pods Frameworks */,
+				0BCE4C844931E18193F43267 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppByhackthon;
+			productName = AppByhackthon;
+			productReference = 55DBDA031D14F498006EFF03 /* AppByhackthon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55DBDA191D14F498006EFF03 /* AppByhackthonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DBDA311D14F498006EFF03 /* Build configuration list for PBXNativeTarget "AppByhackthonTests" */;
+			buildPhases = (
+				55DBDA161D14F498006EFF03 /* Sources */,
+				55DBDA171D14F498006EFF03 /* Frameworks */,
+				55DBDA181D14F498006EFF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55DBDA1C1D14F498006EFF03 /* PBXTargetDependency */,
+			);
+			name = AppByhackthonTests;
+			productName = AppByhackthonTests;
+			productReference = 55DBDA1A1D14F498006EFF03 /* AppByhackthonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55DBDA241D14F498006EFF03 /* AppByhackthonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DBDA341D14F498006EFF03 /* Build configuration list for PBXNativeTarget "AppByhackthonUITests" */;
+			buildPhases = (
+				55DBDA211D14F498006EFF03 /* Sources */,
+				55DBDA221D14F498006EFF03 /* Frameworks */,
+				55DBDA231D14F498006EFF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55DBDA271D14F498006EFF03 /* PBXTargetDependency */,
+			);
+			name = AppByhackthonUITests;
+			productName = AppByhackthonUITests;
+			productReference = 55DBDA251D14F498006EFF03 /* AppByhackthonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55DBD9FB1D14F498006EFF03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.team.hackthon;
+				TargetAttributes = {
+					55DBDA021D14F498006EFF03 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3EH8RQYUV6;
+					};
+					55DBDA191D14F498006EFF03 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 55DBDA021D14F498006EFF03;
+					};
+					55DBDA241D14F498006EFF03 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 55DBDA021D14F498006EFF03;
+					};
+				};
+			};
+			buildConfigurationList = 55DBD9FE1D14F498006EFF03 /* Build configuration list for PBXProject "AppByhackthon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55DBD9FA1D14F498006EFF03;
+			productRefGroup = 55DBDA041D14F498006EFF03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55DBDA021D14F498006EFF03 /* AppByhackthon */,
+				55DBDA191D14F498006EFF03 /* AppByhackthonTests */,
+				55DBDA241D14F498006EFF03 /* AppByhackthonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55DBDA011D14F498006EFF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DBDA141D14F498006EFF03 /* LaunchScreen.storyboard in Resources */,
+				55DBDA111D14F498006EFF03 /* Assets.xcassets in Resources */,
+				55DBDA3A1D14F886006EFF03 /* noimage.png in Resources */,
+				55DBDA521D154812006EFF03 /* DetailController.xib in Resources */,
+				55DBDA0C1D14F498006EFF03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DBDA181D14F498006EFF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DBDA231D14F498006EFF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BCE4C844931E18193F43267 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppByhackthon/Pods-AppByhackthon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B10603F7639737525A1F09F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3E0542D075573BFEB23DC229 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppByhackthon/Pods-AppByhackthon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55DBD9FF1D14F498006EFF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DBDA5B1D15BF4D006EFF03 /* DogList+CoreDataProperties.swift in Sources */,
+				55DBDA541D156FC4006EFF03 /* SwipeChoose.swift in Sources */,
+				55DBDA511D154812006EFF03 /* DetailController.swift in Sources */,
+				55DBDA561D1574A2006EFF03 /* Dog.swift in Sources */,
+				55DBDA091D14F498006EFF03 /* ViewController.swift in Sources */,
+				55DBDA5C1D15BF4D006EFF03 /* DogList.swift in Sources */,
+				55DBDA0F1D14F498006EFF03 /* AppByhackthon.xcdatamodeld in Sources */,
+				55DBDA581D15AE45006EFF03 /* DogListTableView.swift in Sources */,
+				55DBDA5E1D15C198006EFF03 /* JSONViewController.swift in Sources */,
+				55DBDA071D14F498006EFF03 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DBDA161D14F498006EFF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DBDA1F1D14F498006EFF03 /* AppByhackthonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DBDA211D14F498006EFF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DBDA2A1D14F498006EFF03 /* AppByhackthonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55DBDA1C1D14F498006EFF03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55DBDA021D14F498006EFF03 /* AppByhackthon */;
+			targetProxy = 55DBDA1B1D14F498006EFF03 /* PBXContainerItemProxy */;
+		};
+		55DBDA271D14F498006EFF03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55DBDA021D14F498006EFF03 /* AppByhackthon */;
+			targetProxy = 55DBDA261D14F498006EFF03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55DBDA0A1D14F498006EFF03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DBDA0B1D14F498006EFF03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55DBDA121D14F498006EFF03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DBDA131D14F498006EFF03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55DBDA2C1D14F498006EFF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55DBDA2D1D14F498006EFF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55DBDA2F1D14F498006EFF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 362F11D20074884DB93171B4 /* Pods-AppByhackthon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = AppByhackthon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.team.hackthon.AppByhackthon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = AppByhackthon/Header.h;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+			};
+			name = Debug;
+		};
+		55DBDA301D14F498006EFF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3919013F9A20F8DA54057295 /* Pods-AppByhackthon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = AppByhackthon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.team.hackthon.AppByhackthon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = AppByhackthon/Header.h;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+			};
+			name = Release;
+		};
+		55DBDA321D14F498006EFF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AppByhackthonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.team.hackthon.AppByhackthonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppByhackthon.app/AppByhackthon";
+			};
+			name = Debug;
+		};
+		55DBDA331D14F498006EFF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AppByhackthonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.team.hackthon.AppByhackthonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppByhackthon.app/AppByhackthon";
+			};
+			name = Release;
+		};
+		55DBDA351D14F498006EFF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AppByhackthonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.team.hackthon.AppByhackthonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AppByhackthon;
+			};
+			name = Debug;
+		};
+		55DBDA361D14F498006EFF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AppByhackthonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.team.hackthon.AppByhackthonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AppByhackthon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55DBD9FE1D14F498006EFF03 /* Build configuration list for PBXProject "AppByhackthon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DBDA2C1D14F498006EFF03 /* Debug */,
+				55DBDA2D1D14F498006EFF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DBDA2E1D14F498006EFF03 /* Build configuration list for PBXNativeTarget "AppByhackthon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DBDA2F1D14F498006EFF03 /* Debug */,
+				55DBDA301D14F498006EFF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DBDA311D14F498006EFF03 /* Build configuration list for PBXNativeTarget "AppByhackthonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DBDA321D14F498006EFF03 /* Debug */,
+				55DBDA331D14F498006EFF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DBDA341D14F498006EFF03 /* Build configuration list for PBXNativeTarget "AppByhackthonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DBDA351D14F498006EFF03 /* Debug */,
+				55DBDA361D14F498006EFF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		55DBDA0D1D14F498006EFF03 /* AppByhackthon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				55DBDA0E1D14F498006EFF03 /* AppByhackthon.xcdatamodel */,
+			);
+			currentVersion = 55DBDA0E1D14F498006EFF03 /* AppByhackthon.xcdatamodel */;
+			path = AppByhackthon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 55DBD9FB1D14F498006EFF03 /* Project object */;
+}
