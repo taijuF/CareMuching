@@ -2,7 +2,7 @@
 APP_DIR=$PWD
 BACKUP_DIR=$PWD/backup
 mkdir -p $BACKUP_DIR
-YML_URL=$APP_DIR/containers/compose_development.yml
+YML_URL=$APP_DIR/containers/compose-development.yml
 
 if [ -z "`docker ps -a | grep datastore | awk '{ print $12 }'`" ]; then
   echo 'make datastore'
