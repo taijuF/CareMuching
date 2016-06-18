@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+json_string = File.read(Rails.root.join("db/dogs_data.json"))
+JSON.parse(json_string).each{|data| Dog.create!(data)}
