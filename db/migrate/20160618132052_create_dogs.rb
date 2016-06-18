@@ -19,7 +19,9 @@ class CreateDogs < ActiveRecord::Migration
       t.string :can_senior
       t.string :vaccine
       t.string :size
-
+      t.float :latitude
+      t.float :longitude
+      
       t.timestamps null: false
     end
   end
