@@ -20,11 +20,6 @@ if [ -n "$IMG" ]; then
   docker stop $IMG
   docker rm $IMG
 fi
-# Delete Images
-RMI_IMG=`docker images | awk '/^<none>/ { print $3 }'`
-if [ -n "$RMI_IMG" ]; then
-  docker rmi $(docker images | awk '/^<none>/ { print $3 }')
-fi
 
 # Build & Up
 docker-compose -f $YML_URL build
