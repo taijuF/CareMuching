@@ -1,0 +1,23 @@
+datastore:
+    build: datastore
+    container_name: datastore
+    tty: true
+
+nginx:
+    build: nginx
+    container_name: nginx
+    ports:
+        - '80:80'
+        - '443:443'
+    links:
+        - rails
+    volumes_from:
+        - datastore
+
+rails:
+    build: ../.
+    container_name: rails
+    expose: 
+        - 3000
+    volumes_from:
+        - datastore
