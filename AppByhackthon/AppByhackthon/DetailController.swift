@@ -36,7 +36,7 @@ class DetailController: UIViewController {
         self.view.backgroundColor = UIColor.whiteColor()
         
         var naviSize = self.navigationController?.navigationBar.frame.height
-        setBackView(Int(naviSize!))
+        setBackView()
         
         
         setFrontView()
@@ -111,7 +111,7 @@ class DetailController: UIViewController {
         
         
     }
-    func setBackView(naviSize : Int){
+    func setBackView(){
         BackImage = UIImageView()
         
         BackImage?.frame = CGRectMake(-120,30,myApp.width+200, myApp.height/3 + 120)

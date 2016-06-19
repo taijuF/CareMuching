@@ -55,6 +55,9 @@ class ViewController: UIViewController ,MDCSwipeToChooseDelegate {
         
         /*************ナビゲーションバー関係************/
         self.title = "CareMuching"
+        
+        self.navigationItem.titleView = UIImageView(image: UIImage(named: "post.png"))
+        self.navigationItem.titleView?.frame = CGRectMake(0, 0, 45, 45)
         self.view.backgroundColor = UIColor.whiteColor()
         
         image =  UIImage(named: "Dog-50.png")
@@ -79,7 +82,8 @@ class ViewController: UIViewController ,MDCSwipeToChooseDelegate {
     }
     func DogList() {
         let listTable = DogListTableView()
-
+        self.navigationItem.backBarButtonItem?.image = UIImage(named: "Book-50.png")
+        //self.navigationItem.backBarButtonItem!.release
         self.navigationController?.pushViewController(listTable, animated: true)
     }
     
@@ -87,14 +91,14 @@ class ViewController: UIViewController ,MDCSwipeToChooseDelegate {
     func setButton(){
         //yesボタンの追加
         var yesButton2 = UIButton()
-        yesButton2.setImage(UIImage(named:"Phone-100.png"), forState: UIControlState.Normal)
+        yesButton2.setImage(UIImage(named:"Filled-100.png"), forState: UIControlState.Normal)
         yesButton2.frame = CGRectMake(self.view.bounds.width - 160, view.bounds.height - 160, 100, 100)
         yesButton2.addTarget(self, action: "yesClick:", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(yesButton2)
         
         //Noボタンの追加
         var noButton2 = UIButton()
-        noButton2.setImage(UIImage(named:"Hand-100.png"), forState: UIControlState.Normal)
+        noButton2.setImage(UIImage(named:"Sad-100.png"), forState: UIControlState.Normal)
         noButton2.frame = CGRectMake(60, view.bounds.height - 160, 100, 100)
         noButton2.addTarget(self, action: "noClick:", forControlEvents: UIControlEvents.TouchUpInside)
         

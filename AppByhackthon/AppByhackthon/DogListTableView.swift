@@ -18,6 +18,11 @@ class DogListTableView: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+//        self.navigationItem.SetBackBarButtonItem?.image = UIImage(named: "Book-50.png")
+
+//        self.navigationItem.backBarButtonItem.release
+        
         ListTable.frame = self.view.bounds
         
         ListTable.delegate = self
@@ -116,9 +121,22 @@ class DogListTableView: UITableViewController {
     }
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         
-        return 120
+        return 140
         
     }
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let Detail = DetailController()
+        Detail.dog = dogInst[indexPath.row]
+        let nav = UINavigationController(rootViewController: Detail)
+//        self.presentViewController(self, animated: true, completion: nil)
+
+//        UIApplication.sharedApplication().keyWindow?.rootViewController?.presentViewController(nav, animated: true, completion: nil)
+        
+       // Detail.modalTransitionStyle = UIModalTransitionStyle.CrossDissolve
+        self.presentViewController(nav, animated: true, completion: nil)
+    }
+    
+    
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if(fav.count != 0){
             return fav.count
@@ -138,8 +156,9 @@ class DogListTableView: UITableViewController {
         cell.breed.text = dogInst[indexPath.row].Dog_Age
         cell.sex.text = dogInst[indexPath.row].Dog_Sex
         cell.faci.text = dogInst[indexPath.row].Dog_Facility
+        cell.Story.text = dogInst[indexPath.row].Dog_Story
 
-        
+        cell.Story.numberOfLines = 3
        
             //cell.textLabel?.text = dogInst[0].Dog_Facility
             //print("aaaa\(cell.textLabel?.text)")

@@ -18,6 +18,8 @@ class TableViewCell: UITableViewCell {
     
     @IBOutlet weak var faci: UILabel!
     
+    @IBOutlet weak var Story: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
