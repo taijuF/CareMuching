@@ -28,6 +28,7 @@
 		55DBDA621D15CE71006EFF03 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DBDA601D15CE71006EFF03 /* SwiftyJSON.framework */; };
 		55DD1EF41D15D70A0042D5FA /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DD1EF31D15D70A0042D5FA /* SDWebImage.framework */; };
 		94CDC6F4D501DD3969C258AE /* Pods_AppByhackthonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FE92F39165C0B103981711 /* Pods_AppByhackthonUITests.framework */; };
+		D77DB7841D1619C3008472E7 /* RootTabPagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77DB7831D1619C3008472E7 /* RootTabPagesView.swift */; };
 		D7ADD0871D160DF600EBAA18 /* RegisterDogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ADD0861D160DF600EBAA18 /* RegisterDogsView.swift */; };
 		E910C434CB28C0180754FD91 /* Pods_AppByhackthonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AB812F4BBD338B8BF1CBF2 /* Pods_AppByhackthonTests.framework */; };
 		EC7A16A6472713986B1EF942 /* Pods_AppByhackthon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AEC2DABCC130A97B94ECD7 /* Pods_AppByhackthon.framework */; };
@@ -87,6 +88,7 @@
 		CC91AA5FBAF5A18394A6C0F2 /* Pods-AppByhackthonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppByhackthonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppByhackthonUITests/Pods-AppByhackthonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0FE92F39165C0B103981711 /* Pods_AppByhackthonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppByhackthonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AB812F4BBD338B8BF1CBF2 /* Pods_AppByhackthonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppByhackthonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77DB7831D1619C3008472E7 /* RootTabPagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabPagesView.swift; sourceTree = "<group>"; };
 		D7ADD0861D160DF600EBAA18 /* RegisterDogsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterDogsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -177,6 +179,7 @@
 				55DBDA0D1D14F498006EFF03 /* AppByhackthon.xcdatamodeld */,
 				55DD1EF51D15D8000042D5FA /* Header.h */,
 				D7ADD0861D160DF600EBAA18 /* RegisterDogsView.swift */,
+				D77DB7831D1619C3008472E7 /* RootTabPagesView.swift */,
 			);
 			path = AppByhackthon;
 			sourceTree = "<group>";
@@ -484,6 +487,7 @@
 				55DBDA091D14F498006EFF03 /* ViewController.swift in Sources */,
 				55DBDA5C1D15BF4D006EFF03 /* DogList.swift in Sources */,
 				55DBDA0F1D14F498006EFF03 /* AppByhackthon.xcdatamodeld in Sources */,
+				D77DB7841D1619C3008472E7 /* RootTabPagesView.swift in Sources */,
 				55DBDA581D15AE45006EFF03 /* DogListTableView.swift in Sources */,
 				55DBDA5E1D15C198006EFF03 /* JSONViewController.swift in Sources */,
 				D7ADD0871D160DF600EBAA18 /* RegisterDogsView.swift in Sources */,

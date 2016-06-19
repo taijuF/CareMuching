@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DBC937F53B37A3AFACFCFD45FD2C9901"
-               BuildableName = "Pods_AppByhackthon.framework"
-               BlueprintName = "Pods-AppByhackthon"
+               BlueprintIdentifier = "9E64D3E3A7AD1A87C822114B7473AE1E"
+               BuildableName = "FontAwesome_swift.framework"
+               BlueprintName = "FontAwesome.swift"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DBC937F53B37A3AFACFCFD45FD2C9901"
-            BuildableName = "Pods_AppByhackthon.framework"
-            BlueprintName = "Pods-AppByhackthon"
+            BlueprintIdentifier = "9E64D3E3A7AD1A87C822114B7473AE1E"
+            BuildableName = "FontAwesome_swift.framework"
+            BlueprintName = "FontAwesome.swift"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

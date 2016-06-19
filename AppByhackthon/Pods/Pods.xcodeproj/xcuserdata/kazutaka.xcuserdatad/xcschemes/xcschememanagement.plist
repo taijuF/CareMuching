@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FontAwesome.swift-FontAwesome.swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FontAwesome.swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MDCSwipeToChoose.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -39,10 +49,20 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TabPageViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>0364E7404A815FC0D0CA481876790D4F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1088253F42C36418734CF3D95E31B8AA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,12 +72,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>44C43D43403A761866EDF4B99552F2C6</key>
+		<key>44C436553302E499DF77718C8FE9DC13</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>58F16E978519DCFB1CE7E83141F13A7C</key>
+		<key>6275BFC11DCB8D7D8B727CDD5DA378B8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,12 +87,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>9E64D3E3A7AD1A87C822114B7473AE1E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B78FB5A0F00D8651C3A145F4BD7B0D42</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DA2C0DC29048826B7384A20216431FB6</key>
+		<key>DBC937F53B37A3AFACFCFD45FD2C9901</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FDF90AC8F7C5839E2152DC5816137C14</key>
 		<dict>
 			<key>primary</key>
 			<true/>

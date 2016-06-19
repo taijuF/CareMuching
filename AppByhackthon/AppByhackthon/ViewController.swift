@@ -9,7 +9,7 @@
 import UIKit
 import MDCSwipeToChoose
 import CoreData
-
+import TabPageViewController
 
 class ViewController: UIViewController ,MDCSwipeToChooseDelegate {
     
@@ -28,8 +28,6 @@ class ViewController: UIViewController ,MDCSwipeToChooseDelegate {
     let appSize = UIScreen.mainScreen().bounds
     
 
-    
-    
     var image : UIImage?
     let appDel = UIApplication.sharedApplication().delegate as! AppDelegate
 
@@ -52,6 +50,7 @@ class ViewController: UIViewController ,MDCSwipeToChooseDelegate {
         
         
         /*************ナビゲーションバー関係************/
+        
         self.title = "CareMuching"
         self.view.backgroundColor = UIColor.whiteColor()
         
@@ -87,7 +86,7 @@ class ViewController: UIViewController ,MDCSwipeToChooseDelegate {
     
     /** ナビゲーションバーの人をおした時の動作 **/
     func RegistDog() {
-        let RegisterDogs = RegisterDogsView();
+        let RegisterDogs = RootTabPagesView();
         self.navigationController?.pushViewController(RegisterDogs, animated: true)
     }
     

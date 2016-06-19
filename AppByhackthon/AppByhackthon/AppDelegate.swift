@@ -27,7 +27,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         JsonCatch.JsonLoad()
         
-        let mainView = ViewController()
+        //let mainView = ViewController()
+        /*let mainView = RootTabPagesView()
         var navigationController : UINavigationController?
 
         navigationController = UINavigationController(rootViewController : mainView)
@@ -37,6 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = navigationController
         self.window?.makeKeyAndVisible()
         
+ */
         return true
     }
 

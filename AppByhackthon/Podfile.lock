@@ -1,23 +1,29 @@
 PODS:
   - Alamofire (3.4.1)
+  - FontAwesome.swift (0.7.3)
   - MDCSwipeToChoose (0.2.3)
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
   - SwiftyJSON (2.3.2)
+  - TabPageViewController (0.1.1)
 
 DEPENDENCIES:
   - Alamofire
+  - FontAwesome.swift
   - MDCSwipeToChoose
   - SDWebImage
   - SwiftyJSON
+  - TabPageViewController
 
 SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  FontAwesome.swift: f694fe0f667d6d3390b5919cdb0556a27b75d427
   MDCSwipeToChoose: 56239d98b4558c66e7c3c9069482befd26092270
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  TabPageViewController: 10fa70daf5d743127cadfd9ef9b3c1354a54c57c
 
-PODFILE CHECKSUM: d4556e01daaa5f7314e6bf34e55f2dea8c624dac
+PODFILE CHECKSUM: 89ba2a01b2d05a87d921888f2f56818d8473fff9
 
 COCOAPODS: 1.0.1
