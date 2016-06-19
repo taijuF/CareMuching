@@ -67,7 +67,7 @@ class JSONViewController: UIViewController {
                             var stem12 = (item["limit"]! as? String)!
                             
                           //  print("kakikukeko")
-                            var Info = Dog(image : stem1,faci :stem2,age : stem3,breed : stem4,sex : stem5,vaccine : stem6,story : stem7,perso : stem8,heal : stem9,deli : stem10,other : stem11,limit :stem12)
+                            var Info = Dog(image : stem1,faci :stem2,age : stem3,breed : stem4,sex : stem5,vaccine : stem6,story : stem7,perso : stem8,heal : stem9,deli : stem10,other : stem11,limit :stem12,counter: 0)
 
                             appDel.All.append(Info)
                            // print("end")

@@ -22,8 +22,9 @@ class Dog: NSObject {
     var Dog_Deliver : String?
     var Dog_Other : String?
     var Dog_Limit : String?
+    var Dog_Counter : Int?
     
-    init(image : String,faci : String,age : String,breed : String,sex : String,vaccine : String,story : String,perso : String,heal : String,deli : String,other : String,limit : String) {
+    init(image : String,faci : String,age : String,breed : String,sex : String,vaccine : String,story : String,perso : String,heal : String,deli : String,other : String,limit : String,counter : Int) {
         
         Dog_Image = image
         Dog_Facility = faci 
@@ -37,6 +38,7 @@ class Dog: NSObject {
         Dog_Deliver = deli
         Dog_Other = other
         Dog_Limit = limit
+        Dog_Counter = counter
         
     }
     

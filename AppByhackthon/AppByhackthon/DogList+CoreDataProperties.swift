@@ -26,5 +26,7 @@ extension DogList {
     @NSManaged var age: String?
     @NSManaged var other: String?
     @NSManaged var limit: String?
+    @NSManaged var counter : NSNumber?
+ 
 
 }

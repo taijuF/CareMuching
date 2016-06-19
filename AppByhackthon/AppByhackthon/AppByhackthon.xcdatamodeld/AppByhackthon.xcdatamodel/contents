@@ -3,6 +3,7 @@
     <entity name="DogList" representedClassName=".DogList" syncable="YES">
         <attribute name="age" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="breed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="counter" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
         <attribute name="deliver" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="facility" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="health" optional="YES" attributeType="String" syncable="YES"/>
@@ -15,6 +16,6 @@
         <attribute name="vaccine" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="DogList" positionX="-54" positionY="-9" width="128" height="225"/>
+        <element name="DogList" positionX="-54" positionY="-9" width="128" height="240"/>
     </elements>
 </model>

@@ -20,6 +20,7 @@ class DetailController: UIViewController {
     var dog : Dog?
     
 
+    @IBOutlet weak var DetailText: UITextView!
     
     let myApp = UIScreen.mainScreen().bounds
     
@@ -39,15 +40,63 @@ class DetailController: UIViewController {
         
         
         setFrontView()
-            
+        
+        DetailText.text = "所在地 :\((dog!.Dog_Facility)!)\n健康状態 :\((dog!.Dog_Health)!)\nワクチン : \((dog!.Dog_vaccine)!)\n性格 : \((dog!.Dog_Pesonal)!)\n年齢 : \((dog!.Dog_Age)!)\n性別 : \((dog!.Dog_Sex)!)\nこの犬の人生 : \((dog!.Dog_Story)!)\n血統 : \((dog!.Dog_Breed)!)\n\((dog!.Dog_Limit)!)\nその他 : \((dog!.Dog_Other)!) "
+        
+        //facility
+//        var label = UILabel()
+//        label.frame = CGRectMake(20, self.view.bounds.height - 200, self.view.bounds.width-20, 30)
+//        label.text = "所在地 :\((dog!.Dog_Facility)!)"
+//        label.textColor = UIColor(red: 143/255, green: 139/255, blue: 138/255, alpha: 1.0)
+//        
+//        self.view.addSubview(label)
+//        
+//        var label2 = UILabel()
+//        label.frame = CGRectMake(20, self.view.bounds.height - 140, self.view.bounds.width-20, 30)
+//        label.text = "健康状態 :\((dog!.Dog_Health)!)"
+//        label.textColor = UIColor(red: 143/255, green: 139/255, blue: 138/255, alpha: 1.0)
+//        
+//        self.view.addSubview(label2)
         
         
+        
+//        
+//        if((dog!.Dog_Counter)! == 1){
+//            setFavButton()
+//        }
+//        else{
+//            setFavButton2()
+//        }
+//
+//        
+    }
+    /*
+    func setFavButton(){
+        
+        var FavButton = UIButton()
+        FavButton.setImage(UIImage(named:"Ribbon-50.png"), forState: UIControlState.Normal)
+        FavButton.frame = CGRectMake(myApp.width - 50, 30, 50, 80)
+//        FavButton.addTarget(self, action: "yesClick:", forControlEvents: UIControlEvents.TouchUpInside)
+        self.view.addSubview(FavButton)
         
     }
+    
+    func setFavButton2(){
+        
+        var FavButton = UIButton()
+        FavButton.setImage(UIImage(named:"Ribbon-51.png"), forState: UIControlState.Normal)
+        FavButton.frame = CGRectMake(self.view.bounds.width - 160, view.bounds.height - 160, 100, 100)
+        FavButton.addTarget(self, action: "FavClick:", forControlEvents: UIControlEvents.TouchUpInside)
+        print(dog!.Dog_Counter)
+        print("set")
+        self.view.addSubview(FavButton)
+        
+    }
+ */
     func setFrontView(){
         FrontImage = UIImageView()
         
-        FrontImage?.frame = CGRectMake(myApp.width/3 - 50, 80,myApp.width / 4, myApp.height/6)
+        FrontImage?.frame = CGRectMake(myApp.width/3 - 20,100,myApp.width / 4+80, myApp.height/6+80)
         let image = dog!.Dog_Image
         // var local =
         if let url = NSURL(string: image!) {
@@ -56,8 +105,11 @@ class DetailController: UIViewController {
             })
         }
         
+        
         self.view.addSubview(FrontImage!)
-
+        
+        
+        
     }
     func setBackView(naviSize : Int){
         BackImage = UIImageView()
@@ -75,6 +127,7 @@ class DetailController: UIViewController {
         
         let output : CIImage = (BlurFilter?.outputImage)!
         BackImage?.image = UIImage(CIImage : output)
+
         self.view.addSubview(BackImage!)
 
     }

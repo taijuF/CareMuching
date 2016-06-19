@@ -36,6 +36,8 @@ class ViewController: UIViewController ,MDCSwipeToChooseDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.grayColor()
+        
         
         self.setButton()
         /********* DogListについて **********/
@@ -147,23 +149,25 @@ class ViewController: UIViewController ,MDCSwipeToChooseDelegate {
         
         let dogData = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext)
         
-        dogData.setValue(dogInfo!.Dog_Age, forKey: "age")
-        dogData.setValue(dogInfo!.Dog_Image, forKey: "image")
-        dogData.setValue(dogInfo!.Dog_Facility, forKey: "facility")
-        dogData.setValue(dogInfo!.Dog_Sex, forKey: "sex")
-        dogData.setValue(dogInfo!.Dog_Breed, forKey: "breed")
-        dogData.setValue(dogInfo!.Dog_Limit, forKey: "limit")
-        dogData.setValue(dogInfo!.Dog_Other, forKey: "other")
-        dogData.setValue(dogInfo!.Dog_Story, forKey: "story")
-        dogData.setValue(dogInfo!.Dog_Health, forKey: "health")
-        dogData.setValue(dogInfo!.Dog_Pesonal, forKey: "personal")
-        dogData.setValue(dogInfo!.Dog_vaccine, forKey: "vaccine")
+        dogData.setValue(MDCView!.dogOct!.Dog_Age, forKey: "age")
+        dogData.setValue(MDCView!.dogOct!.Dog_Image, forKey: "image")
+        dogData.setValue(MDCView!.dogOct!.Dog_Facility, forKey: "facility")
+        dogData.setValue(MDCView!.dogOct!.Dog_Sex, forKey: "sex")
+        dogData.setValue(MDCView!.dogOct!.Dog_Breed, forKey: "breed")
+        dogData.setValue(MDCView!.dogOct!.Dog_Limit, forKey: "limit")
+        dogData.setValue(MDCView!.dogOct!.Dog_Other, forKey: "other")
+        dogData.setValue(MDCView!.dogOct!.Dog_Story, forKey: "story")
+        dogData.setValue(MDCView!.dogOct!.Dog_Health, forKey: "health")
+        dogData.setValue(MDCView!.dogOct!.Dog_Pesonal, forKey: "personal")
+        dogData.setValue(MDCView!.dogOct!.Dog_vaccine, forKey: "vaccine")
+        
+        dogData.setValue(MDCView!.dogOct!.Dog_Counter, forKey: "counter")
         
         do{
             let List = DogListTableView()
             try managedContext.save()
             List.fav.insert(dogData, atIndex: 0)
-            
+            print("saved!!!")
         }catch let error as NSError {
             
         }

@@ -20,7 +20,6 @@ class SwipeChoose: MDCSwipeToChooseView {
         imageViewSet()
         setButtonLabel()
         
-        
         backgroundColor = UIColor.whiteColor()
         likedView.frame = CGRectMake(0, 0, 0, 0)
         nopeView.frame = CGRectMake(0, 0, 0, 0)

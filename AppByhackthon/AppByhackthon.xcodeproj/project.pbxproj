@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5502B6701D161BB3009BF854 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502B66E1D161BB3009BF854 /* TableViewCell.swift */; };
+		5502B6711D161BB3009BF854 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5502B66F1D161BB3009BF854 /* TableViewCell.xib */; };
 		55DBDA071D14F498006EFF03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBDA061D14F498006EFF03 /* AppDelegate.swift */; };
 		55DBDA091D14F498006EFF03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBDA081D14F498006EFF03 /* ViewController.swift */; };
 		55DBDA0C1D14F498006EFF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DBDA0A1D14F498006EFF03 /* Main.storyboard */; };
@@ -16,7 +18,6 @@
 		55DBDA1F1D14F498006EFF03 /* AppByhackthonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBDA1E1D14F498006EFF03 /* AppByhackthonTests.swift */; };
 		55DBDA2A1D14F498006EFF03 /* AppByhackthonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBDA291D14F498006EFF03 /* AppByhackthonUITests.swift */; };
 		55DBDA381D14F588006EFF03 /* MDCSwipeToChoose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DBDA371D14F588006EFF03 /* MDCSwipeToChoose.framework */; };
-		55DBDA3A1D14F886006EFF03 /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DBDA391D14F886006EFF03 /* noimage.png */; };
 		55DBDA511D154812006EFF03 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBDA4F1D154812006EFF03 /* DetailController.swift */; };
 		55DBDA521D154812006EFF03 /* DetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55DBDA501D154812006EFF03 /* DetailController.xib */; };
 		55DBDA541D156FC4006EFF03 /* SwipeChoose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DBDA531D156FC4006EFF03 /* SwipeChoose.swift */; };
@@ -52,6 +53,8 @@
 		362F11D20074884DB93171B4 /* Pods-AppByhackthon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppByhackthon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppByhackthon/Pods-AppByhackthon.debug.xcconfig"; sourceTree = "<group>"; };
 		3919013F9A20F8DA54057295 /* Pods-AppByhackthon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppByhackthon.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppByhackthon/Pods-AppByhackthon.release.xcconfig"; sourceTree = "<group>"; };
 		46898BD5EA2F425FDC8BCFC8 /* Pods_AppByhackthon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppByhackthon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5502B66E1D161BB3009BF854 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5502B66F1D161BB3009BF854 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		55DBDA031D14F498006EFF03 /* AppByhackthon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppByhackthon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DBDA061D14F498006EFF03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55DBDA081D14F498006EFF03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,7 +70,6 @@
 		55DBDA291D14F498006EFF03 /* AppByhackthonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppByhackthonUITests.swift; sourceTree = "<group>"; };
 		55DBDA2B1D14F498006EFF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55DBDA371D14F588006EFF03 /* MDCSwipeToChoose.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MDCSwipeToChoose.framework; path = "Pods/../build/Debug-iphoneos/MDCSwipeToChoose.framework"; sourceTree = "<group>"; };
-		55DBDA391D14F886006EFF03 /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noimage.png; path = ../../noimage.png; sourceTree = "<group>"; };
 		55DBDA4F1D154812006EFF03 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		55DBDA501D154812006EFF03 /* DetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailController.xib; sourceTree = "<group>"; };
 		55DBDA531D156FC4006EFF03 /* SwipeChoose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeChoose.swift; sourceTree = "<group>"; };
@@ -144,13 +146,14 @@
 				55DBDA531D156FC4006EFF03 /* SwipeChoose.swift */,
 				55DBDA551D1574A2006EFF03 /* Dog.swift */,
 				55DBDA571D15AE45006EFF03 /* DogListTableView.swift */,
+				5502B66E1D161BB3009BF854 /* TableViewCell.swift */,
+				5502B66F1D161BB3009BF854 /* TableViewCell.xib */,
 				55DBDA591D15BF4D006EFF03 /* DogList+CoreDataProperties.swift */,
 				55DBDA5A1D15BF4D006EFF03 /* DogList.swift */,
 				55DBDA5D1D15C198006EFF03 /* JSONViewController.swift */,
 				55DBDA0A1D14F498006EFF03 /* Main.storyboard */,
 				55DBDA101D14F498006EFF03 /* Assets.xcassets */,
 				55DBDA121D14F498006EFF03 /* LaunchScreen.storyboard */,
-				55DBDA391D14F886006EFF03 /* noimage.png */,
 				55DBDA151D14F498006EFF03 /* Info.plist */,
 				55DBDA0D1D14F498006EFF03 /* AppByhackthon.xcdatamodeld */,
 				55DD1EF51D15D8000042D5FA /* Header.h */,
@@ -306,8 +309,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				55DBDA141D14F498006EFF03 /* LaunchScreen.storyboard in Resources */,
+				5502B6711D161BB3009BF854 /* TableViewCell.xib in Resources */,
 				55DBDA111D14F498006EFF03 /* Assets.xcassets in Resources */,
-				55DBDA3A1D14F886006EFF03 /* noimage.png in Resources */,
 				55DBDA521D154812006EFF03 /* DetailController.xib in Resources */,
 				55DBDA0C1D14F498006EFF03 /* Main.storyboard in Resources */,
 			);
@@ -388,6 +391,7 @@
 				55DBDA561D1574A2006EFF03 /* Dog.swift in Sources */,
 				55DBDA091D14F498006EFF03 /* ViewController.swift in Sources */,
 				55DBDA5C1D15BF4D006EFF03 /* DogList.swift in Sources */,
+				5502B6701D161BB3009BF854 /* TableViewCell.swift in Sources */,
 				55DBDA0F1D14F498006EFF03 /* AppByhackthon.xcdatamodeld in Sources */,
 				55DBDA581D15AE45006EFF03 /* DogListTableView.swift in Sources */,
 				55DBDA5E1D15C198006EFF03 /* JSONViewController.swift in Sources */,
